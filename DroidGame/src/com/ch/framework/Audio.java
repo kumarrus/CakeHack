@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.framework;
+package com.ch.framework;
 
 public interface Audio {
     public Music newMusic(String filename);

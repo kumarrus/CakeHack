@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.framework;
+package com.ch.framework;
 
 public class Color {
     public static int convert (int r, int g, int b, int a) {

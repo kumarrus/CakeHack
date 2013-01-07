@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.framework;
+package com.ch.framework;
 
 import java.io.IOException;
 import java.io.InputStream;

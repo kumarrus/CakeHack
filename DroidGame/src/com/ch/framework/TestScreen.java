@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.framework;
+package com.ch.framework;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,9 +9,9 @@ import java.util.List;
 import android.graphics.Color;
 import android.util.Log;
 
-import com.badlogic.androidgames.framework.Graphics.PixmapFormat;
-import com.badlogic.androidgames.framework.Input.KeyEvent;
-import com.badlogic.androidgames.framework.Input.TouchEvent;
+import com.ch.framework.Graphics.PixmapFormat;
+import com.ch.framework.Input.KeyEvent;
+import com.ch.framework.Input.TouchEvent;
 
 class TestScreen extends Screen {
     long startTime = System.nanoTime();

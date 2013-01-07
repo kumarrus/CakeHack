@@ -1,6 +1,6 @@
-package com.badlogic.androidgames.framework;
+package com.ch.framework;
 
-import com.badlogic.androidgames.framework.Graphics.PixmapFormat;
+import com.ch.framework.Graphics.PixmapFormat;
 
 public interface Pixmap {
     public int getWidth();

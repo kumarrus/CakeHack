@@ -1,4 +1,4 @@
-package com.badlogic.androidgames.framework.impl;
+package com.ch.framework.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.badlogic.androidgames.framework.Input.TouchEvent;
-import com.badlogic.androidgames.framework.Pool;
-import com.badlogic.androidgames.framework.Pool.PoolObjectFactory;
+import com.ch.framework.Pool;
+import com.ch.framework.Input.TouchEvent;
+import com.ch.framework.Pool.PoolObjectFactory;
 
 public class MultiTouchHandler implements TouchHandler {
     boolean[] isTouched = new boolean[20];
