@@ -1,5 +1,14 @@
 package com.ch.gamedroid;
 
-public class chGame {
+import com.ch.framework.Screen;
+import com.ch.framework.impl.AndroidGame;
+import com.ch.gamedroid.LoadingScreen;
+
+public class chGame extends AndroidGame {
+	
+	@Override
+    public Screen getStartScreen() {
+        return new LoadingScreen(this); 
+    }
 
 }
