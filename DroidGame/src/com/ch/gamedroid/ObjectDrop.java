@@ -14,7 +14,7 @@ public class ObjectDrop {
 	ObjectDrop(int positionX, int positionY, float vTime )
 	{
 		this.positionX = positionX;
-		this.positionY = positionX;
+		this.positionY = positionY;
 		this.vTime = vTime;
 		this.State = FALLING;
 	}

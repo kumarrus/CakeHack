@@ -9,5 +9,5 @@ public class Assets {
     public static Pixmap characterOne;
     public static Pixmap coin_fall;
     public static Pixmap coin_land;
-
+    public static Pixmap background;
 }

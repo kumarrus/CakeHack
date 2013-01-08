@@ -16,11 +16,12 @@ public class LoadingScreen extends Screen {
 	public void update(float deltaTime) 
 	{
 		Graphics g = game.getGraphics();
-		Assets.coin_fall = g.newPixmap("coin_falling.png", PixmapFormat.RGB565);
-		Assets.coin_land = g.newPixmap("coin_landed.png", PixmapFormat.RGB565);
-		Assets.characterOne = g.newPixmap("character1.png", PixmapFormat.RGB565);
-		Assets.gameOver = g.newPixmap("gameover.png", PixmapFormat.RGB565);
-		Assets.ready = g.newPixmap("ready.png", PixmapFormat.RGB565);
+		Assets.coin_fall = g.newPixmap("coin_falling.png", PixmapFormat.ARGB4444);
+		Assets.coin_land = g.newPixmap("coin_landed.png", PixmapFormat.ARGB4444);
+		Assets.characterOne = g.newPixmap("character1.png", PixmapFormat.ARGB4444);
+		Assets.gameOver = g.newPixmap("gameover.png", PixmapFormat.ARGB4444);
+		Assets.ready = g.newPixmap("ready.png", PixmapFormat.ARGB4444);
+		Assets.background = g.newPixmap("background.png", PixmapFormat.RGB565);
 		game.setScreen(new GameScreen(game));
 	}
 

@@ -24,13 +24,13 @@ public class World {
 
     public World() {
         mario = new CharacterOne(5, 13);
-        placeObject();
+        //placeObject();
     }
 
     private void placeObject() {
         int objX = random.nextInt(WORLD_WIDTH);
 
-        coins.add(new ObjectDrop(objX, 0, VTIME_INITIAL));
+        coins.add(new ObjectDrop(objX, 1, VTIME_INITIAL));
     }
 
     public void update(float deltaTime) {
