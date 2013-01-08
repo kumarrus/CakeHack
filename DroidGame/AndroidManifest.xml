@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" 
         android:debuggable="true">
-        <activity android:name="com.ch.gamedroid.chGame"
+        <activity android:name="com.ch.gamedroid.MainActivity"
                   android:label="@string/app_name"
                   android:configChanges="keyboard|keyboardHidden|orientation"
                   android:screenOrientation="portrait">
